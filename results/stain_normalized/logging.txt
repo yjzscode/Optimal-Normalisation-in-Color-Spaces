@@ -1,0 +1,93 @@
+Total training epochs : 100
+Epoch 001 ##################                   
+ 	Train loss: 0.11450,   Train acc: 96.476%;                
+ 	Test loss: 0.44866,   Test acc: 89.666%;                  
+ 	Best test acc: 89.666
+
+Epoch 002 ##################                   
+ 	Train loss: 0.04637,   Train acc: 98.546%;                
+ 	Test loss: 0.40185,   Test acc: 90.961%;                  
+ 	Best test acc: 90.961
+
+Epoch 003 ##################                   
+ 	Train loss: 0.03287,   Train acc: 98.985%;                
+ 	Test loss: 0.39748,   Test acc: 90.571%;                  
+ 	Best test acc: 90.961
+
+Epoch 004 ##################                   
+ 	Train loss: 0.02373,   Train acc: 99.257%;                
+ 	Test loss: 0.37687,   Test acc: 91.156%;                  
+ 	Best test acc: 91.156
+
+Epoch 005 ##################                   
+ 	Train loss: 0.01879,   Train acc: 99.391%;                
+ 	Test loss: 0.46375,   Test acc: 89.318%;                  
+ 	Best test acc: 91.156
+
+Epoch 006 ##################                   
+ 	Train loss: 0.01222,   Train acc: 99.596%;                
+ 	Test loss: 0.30640,   Test acc: 92.577%;                  
+ 	Best test acc: 92.577
+
+Epoch 007 ##################                   
+ 	Train loss: 0.00803,   Train acc: 99.749%;                
+ 	Test loss: 0.53111,   Test acc: 86.142%;                  
+ 	Best test acc: 92.577
+
+Epoch 008 ##################                   
+ 	Train loss: 0.00441,   Train acc: 99.859%;                
+ 	Test loss: 0.30889,   Test acc: 93.760%;                  
+ 	Best test acc: 93.760
+
+Epoch 009 ##################                   
+ 	Train loss: 0.00260,   Train acc: 99.912%;                
+ 	Test loss: 0.31137,   Test acc: 93.969%;                  
+ 	Best test acc: 93.969
+
+Epoch 010 ##################                   
+ 	Train loss: 0.00164,   Train acc: 99.949%;                
+ 	Test loss: 0.35878,   Test acc: 93.064%;                  
+ 	Best test acc: 93.969
+
+Epoch 011 ##################                   
+ 	Train loss: 0.00099,   Train acc: 99.975%;                
+ 	Test loss: 0.34479,   Test acc: 93.705%;                  
+ 	Best test acc: 93.969
+
+Epoch 012 ##################                   
+ 	Train loss: 0.00121,   Train acc: 99.963%;                
+ 	Test loss: 0.37805,   Test acc: 93.538%;                  
+ 	Best test acc: 93.969
+
+Epoch 013 ##################                   
+ 	Train loss: 0.00356,   Train acc: 99.888%;                
+ 	Test loss: 0.38878,   Test acc: 91.922%;                  
+ 	Best test acc: 93.969
+
+Epoch 014 ##################                   
+ 	Train loss: 0.01109,   Train acc: 99.659%;                
+ 	Test loss: 0.37008,   Test acc: 92.354%;                  
+ 	Best test acc: 93.969
+
+Epoch 015 ##################                   
+ 	Train loss: 0.01394,   Train acc: 99.541%;                
+ 	Test loss: 0.36795,   Test acc: 93.719%;                  
+ 	Best test acc: 93.969
+
+Epoch 016 ##################                   
+ 	Train loss: 0.02156,   Train acc: 99.337%;                
+ 	Test loss: 0.42931,   Test acc: 89.610%;                  
+ 	Best test acc: 93.969
+
+Epoch 017 ##################                   
+ 	Train loss: 0.02246,   Train acc: 99.276%;                
+ 	Test loss: 0.27911,   Test acc: 92.131%;                  
+ 	Best test acc: 93.969
+
+Epoch 018 ##################                   
+ 	Train loss: 0.01847,   Train acc: 99.447%;                
+ 	Test loss: 0.62140,   Test acc: 88.203%;                  
+ 	Best test acc: 93.969
+
+Best test acc:93.969% @ epoch 9 
+run time: 2489.4s, 0.69h
