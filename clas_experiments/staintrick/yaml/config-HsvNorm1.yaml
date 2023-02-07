@@ -1,0 +1,38 @@
+
+# gpu_id: 1
+seed: 42
+### Roots
+train_root: "/root/autodl-tmp/clas_experiments/RandStainNA-master/classification/100K-NONORM-png/train0"
+test_root: "/root/autodl-tmp/clas_experiments/RandStainNA-master/classification/100K-NONORM-png/test"
+output_path: "/root/autodl-tmp/clas_experiments/staintrick/results/" 
+postfix: 'HsvNorm_1_densenet121'
+### Model & Schemes
+model: "densenet121" # model_name in Timm
+# requires_grad: False 
+pretrained: False # If to use the ImageNet pretrained weights
+prenorm: False # If to use the prenorm scheme
+emaprenorm: False # If to use the EMA variant of prenorm scheme
+emaprenorm_lambda: 0.01
+randnorm: False # If to use the randnorm scheme
+temnorm: False 
+hsvnorm: True 
+# hednorm: False 
+### Training Configurations
+num_workers: 15
+batch_size: 128
+learning_rate: 5.0e-4
+weight_decay: 1.0e-5
+min_learning_rate: 5.0e-6
+T_max: 10
+gamma: 0.8
+epochs: 100
+patience: 8
+scheduler: 'cosine' 
+scheduler_norm: "step" # 学习层不同的scheduler
+mu0: [5.1327, 0.4057, 0.5898]
+sigma0: [0.8635, 0.1745, 0.1944]
+
+mu0_hsv: [0.82702367,0.37666315,0.631354464]
+sigma0_hsv: [0.147702595,0.171121216,0.19210163]
+mu0_lab: [51.61 ,23.40 ,-11.66]
+sigma0_lab: [21.22 ,9.43,7.92] 
