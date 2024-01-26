@@ -12,24 +12,10 @@ Tune all the hyper-parameters in [`config.yaml`](config.yaml).
 
 ## Dataset
 
-Datasets can be downloadee use [`preprocess/download.py`](preprocess/download.py).
-
-- Normalized-v1: Stain normalized with template `NORM-AAAWMSFI.tif` (from training set).
-- Normalized-v2: Stain normalized with template `STR-AAEILWWE.tif` (from training set).
-- Normalized-v3: Stain normalized with template `NORM-TCGA-AASSYQPA.tif` (from test set).
+Datasets can be downloaded by links in our paper "Learnable Color Space Conversion and Fusion for Stain Normalization in Pathology Image".
 
 ## Methods
-1. `LabPreNorm`: Learnable normalization parameters (i.e., channel mean and channel std) of the template in LAB color space, and use the Reinhard's normalization method.
-3. `LabEMAPreNorm`: Use EMA to update the normalization template. Hyper-parameter: lambda. When lambda=0, degenerates to vanilla Reinhard's normalization method; when lambda=1, degenerates to a speical case of `LabRandNorm`.
-2. `LabRandNorm`: Randomly select template in each mini-batch, and use the Reinhard's normalization method.
-
-## Results
-| *ResNet-18* | w/o Pretrain | w/ Pretrain |
-| -- | -- | -- |
-| w/o Norm    | 64.958 | 58.788 |
-| w/ Norm v1  | 78.914 | 78.106 |
-| w/ Norm v3  | 89.624 | 89.262 |
-| w/ RandNorm | 88.454 | |
-| w/ PreNorm  | 92.549 | |
-| w/ EMAPreNorm (lambd=0) | 91.504 | |
+1. `LabPreNorm`: Learnable normalization parameters (i.e., channel mean and channel std) of the template in LAB color space.
+2. `TemplateNorm`: Fixed normalization parameters in LAB space.
+3. `SA3`: Our proposed LStainNorm, including color space conversion and fusion.
 
