@@ -1,0 +1,36 @@
+
+# gpu_id: 1
+seed: 42
+device: 'cuda:0'
+### Roots
+train_root: "./staintrick/classification/100K-NONORM-png/train0/"
+test_root: "./staintrick/classification/100K-NONORM-png/test/"
+output_path: "./staintrick/results/"
+postfix: 'SA1_resnet50' 
+### Model & Schemes
+model: "resnet50" # model_name in Timm
+pretrained: False # If to use the ImageNet pretrained weights
+prenorm: False # If to use the prenorm scheme
+temnorm: False 
+SA3: True 
+### Training Configurations
+num_workers: 15
+batch_size: 64
+learning_rate: 5.0e-4
+weight_decay: 1.0e-5
+min_learning_rate: 5.0e-6
+T_max: 10
+gamma: 0.8
+epochs: 100
+patience: 8
+scheduler: 'cosine' 
+scheduler_norm: "step" # 学习层不同的scheduler
+mu0: [70.5085,  21.9641, -13.7990]
+sigma0: [12.7103,  8.7185,  6.0168] 
+
+mu0_hsv: [5.0052, 0.6096, 0.3046]
+sigma0_hsv: [0.4368, 0.1728, 0.1720]
+mu0_lab: [ 19.5645,  20.6909, -16.7789]
+sigma0_lab: [16.3662,  7.3791,  7.2138] 
+mu0_rgb: [0.2604, 0.1451, 0.2891]
+sigma0_rgb: [0.1810, 0.1400, 0.1534]
