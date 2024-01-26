@@ -1,7 +1,0 @@
-2022-10-29 10:18:37,390 - train - INFO - Begin training.
-2022-10-29 10:19:47,846 - train - INFO - epoch num val: 1 -- Loss: 2.0906 -- Dice : 0.7042 -- Iou : 0.5426 --  Boundary acc : 0.3668000102043152
-2022-10-29 10:19:54,546 - train - INFO - epoch num test: 1 -- Loss: 2.1756 -- Dice : 0.6799 -- Iou : 0.516 --  Boundary acc : 0.3671000003814697
-
-2022-10-29 10:21:04,158 - train - INFO - epoch num val: 2 -- Loss: 2.0001 -- Dice : 0.7224 -- Iou : 0.5662 --  Boundary acc : 0.37070000171661377
-2022-10-29 10:21:10,800 - train - INFO - epoch num test: 2 -- Loss: 2.0864 -- Dice : 0.6992 -- Iou : 0.5375 --  Boundary acc : 0.3709999918937683
-
