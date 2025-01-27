@@ -28,7 +28,7 @@ Run [`main.py`](main.py) to train the models.
 Tune all the hyper-parameters in [`config-SA1.yaml`](config-SA1.yaml).
 - `train_root`: Path to the training set.
 - `test_root`: Path to the test set.
-- `output_path`: Path to the output. Output files will be exported to a folder created in `output_path` started with the date, hence no worry for overriding.
+- `output_path`: Path to the output. Output files will be exported to a folder created in `output_path` starting with the date, hence no worry for overriding.
 
 ## Dataset
 
@@ -41,4 +41,14 @@ Datasets can be downloaded by links shared in our paper "Learnable Color Space C
 
 ## Citing Our Work
 Please cite the following paper if you use our code:
+
+`@article{ke2025learnable,`
+`title={Learnable color space conversion and fusion for stain normalization in pathology images},`  
+`author={Ke, Jing and Zhou, Yijin and Shen, Yiqing and Guo, Yi and Liu, Ning and Han, Xiaodan and Shen, Dinggang},`  
+`journal={Medical Image Analysis},`  
+`volume={101},`
+`pages={103424},`  
+`year={2025},`  
+`publisher={Elsevier}`  
+`}`
 
